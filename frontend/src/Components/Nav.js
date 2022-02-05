@@ -5,18 +5,18 @@ const Nav = () => {
         <>
             <div className='row'>
                 <div className='col-md-8'>
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
+                    <ul className="nav nav-pills">
+                        <li className="nav-item">
+                            <a className="nav-link active" href="#">Active</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Link</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Link</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                        <li className="nav-item">
+                            <a className="nav-link disabled" href="#">Disabled</a>
                         </li>
                     </ul>
                 </div>

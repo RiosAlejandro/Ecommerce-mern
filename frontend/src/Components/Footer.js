@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookSquare, faInstagramSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
 import '../App.css';
 
 
@@ -33,19 +36,19 @@ const Footer = () => {
                 </div>
                 <div className='col-md-6'>
                     <div>
-                        <i></i>
+                        <FontAwesomeIcon icon={faMapMarkerAlt}/>
                         <dt>Locales</dt>
                     </div>
                     <div>
-                        <i></i>
+                    <FontAwesomeIcon icon={faFacebookSquare}/>
                         <dt>FB</dt>
                     </div>
                     <div>
-                        <i></i>
+                    <FontAwesomeIcon icon={faTwitterSquare}/>
                         <dt>TW</dt>
                     </div>
                     <div>
-                        <i></i>
+                    <FontAwesomeIcon icon={faInstagramSquare}/>
                         <dt>IG</dt>
                     </div>
                 </div>
