@@ -1,7 +1,7 @@
 import React from 'react';
 import imagen1 from '../Assets/5.jpg';
 import Cars from './Cars';
-import img1 from '../Assets/4.jpg';
+import img1 from '../Assets/bombilla2.jpg';
 import img7 from '../Assets/7.jpg';
 import img18 from '../Assets/18.jpg';
 import '../App.css';
