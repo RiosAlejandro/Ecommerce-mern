@@ -91,3 +91,21 @@ hr{
   color: rgb(250, 244, 237);
   border: rgb(250, 244, 237) 2px solid;
 }
+
+.fodoMain{
+  background: rgb(17, 17, 17);
+}
+
+/*Aritcle - jumboArticle*/
+.articleJumbo .svg-inline--fa{
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.imgArticle{
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}

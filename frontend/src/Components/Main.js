@@ -10,11 +10,11 @@ import imagenMainMochila from '../Assets/mochilamatera.jpg';
 const Main = () => {
     return ( 
         <>
-            <div className='d-flex '>
+            <div className='d-flex fodoMain pt-3'>
                 <CardMain img={imagenMain1} text='Mates'/>
                 <CardMain img={imagenMainTermo} text='Termos' />
             </div>
-            <div className='d-flex ' >
+            <div className='d-flex fodoMain' >
                 <CardMain img={imagenMainBolso} text='Bolsos materos' />
                 <CardMain img={imagenMainBombilla} text='Bombillas' />
                 <CardMain img={imagenMainMochila} text='Mochilas materas' />

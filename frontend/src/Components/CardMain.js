@@ -9,7 +9,7 @@ const CardMain = (props) => {
                 <img className="card-img-top h-100" src={props.img} alt="imagen main" />
                 <div className="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                     <h4 className="card-title tituloCardMain">{props.text}</h4>
-                    <button type="button" class="btn btn-lg btn-outline-light text-dark botMainCard">COMPRAR AHORA</button>
+                    <button type="button" className="btn btn-lg btn-outline-light botMainCard">COMPRAR AHORA</button>
                 </div>
             </div>
         </>

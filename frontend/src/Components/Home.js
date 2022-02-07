@@ -3,6 +3,7 @@ import Nav from './Nav';
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
+import Article from './Article';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Nav />
             <Header />
             <Main />
+            <Article />
             <Footer />
         </>
      );
