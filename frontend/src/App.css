@@ -109,3 +109,33 @@ hr{
   margin-left: 20%;
   margin-right: 20%;
 }
+.imgseccion{
+  width: 30%;
+}
+
+/*Seccion - cardSeccion*/
+.secciones{
+  height: 36rem;
+  background: rgb(250, 244, 237);
+}
+
+.seccionCard{
+  width:20%;
+  height: 35rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: none;
+}
+
+.seccionCard img{
+  height: 20rem;
+}
+
+.cajaCardSeccion{
+  height: 10rem;
+  background: rgb(250, 244, 237);
+}
+
+.botonCardSeccion{
+  display: block;
+}

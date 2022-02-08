@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
 import Article from './Article';
+import Seccion from './Seccion';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Header />
             <Main />
             <Article />
+            <Seccion />
             <Footer />
         </>
      );
